@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/estilo.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div>Trabajando Ajax</div>
+        <section id="panel_privado" class='fondo grilla'  >
+            <h2>Panel Privado</h2>
+
+              <article id="panel_ingresar" class='documento'>   
+                <h2>Panel Ingresar</h2>
+              <ul>
+                <li>
+                  <a href="#" 
+                   onclick="ASINCRONO.consultar('partes/contacto.html');" >
+                    Consultar
+                  </a> 
+                </li>
+                
+                <li>
+                  <a href="#" 
+                   onclick="ASINCRONO.consultar('partes/sintacto.html');" >
+                     sInsultar
+                  </a> 
+                </li>
+                <li>
+                  <a href="#" 
+                   onclick="ASINCRONO.consultar('partes/rompemos.html');" >
+                     Rompemos
+                  </a> 
+                </li>
+              
+                <li>
+                  <a href="#" 
+                   onclick="ASINCRONO.borrar();" >
+                    Borrar
+                  </a>
+                </li>
+                
+              </ul>
+            </article>   
+            <article id="panel_mensajes" class='documento'>   
+                <h2>Panel Mensajes</h2>
+
+            </article>   
+            <article id="panel_listado" class='documento'>   
+                <h2>Panel Listado</h2>
+
+            </article>   
+
+
+        </section>
+
+        <section id="panel_publico">
+            <h2>Panel Publico</h2>
+          
+        </section>
+        <script src="js/clase1ajax.js" ></script>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+*{
+  margin:0;
+  padding:0;
+}
+.fondo{
+    background-color: yellowgreen;
+}
+.grilla{
+
+}
+.documento{
+    background-color: green;
+    color: yellow;
+    float:left;
+    border-radius: 10px;    
+    margin: 2px ;
+    min-width: 300px ;
+    max-width: 30% ;
+    min-height: 300px;
+}
+a, a:after, a:before{
+  color: blue};
+    font-size: xx-large;
+}
+li{
+  /* display: inline-block; */
+}
+#panel_publico{
+    background-color: orange;
+    color: green;
+    float: left;
+    border-radius: 10px;    
+    margin: 2px ;
+    min-width: 300px ;
+    max-width: 30% ;
+    min-height: 300px;
+}
+
+#ball{
+    border-radius: 10px;    
+    margin: 2px ;
+    min-width: 200px ;
+    max-width: 30% ;
+    min-height: 100px;
+}
